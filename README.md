@@ -1,5 +1,5 @@
 
-# Portafolio/Hoja de Vida – Javier Gómez
+# Portafolio/Hoja de Vida – Javier Barrera
 
 Proyecto desarrollado para la **Actividad 4 – Introducción a los Lenguajes de Internet** (Etapa de Transferencia) de Ingeniería de Software – UCompensar.
 
