@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto – Javier Gómez</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+ <header class="small-hero">
+   <h1>Contáctame</h1>
+   <a href="index.html">Volver 🔙</a>
+ </header>
+
+ <main class="container">
+   <section>
+     <h2>Enviar mensaje (POST)</h2>
+     <form id="contactForm" action="https://formspree.io/f/yourformid" method="POST">
+       <label>Nombre <input type="text" name="name" required></label>
+       <label>Email <input type="email" name="_replyto" required></label>
+       <label>Mensaje <textarea name="message" rows="4" required></textarea></label>
+       <button type="submit">Enviar</button>
+     </form>
+   </section>
+
+   <section>
+     <h2>Actualizar demo (PUT)</h2>
+     <form id="putForm">
+       <label>ID de recurso <input type="number" id="resId" min="1" required></label>
+       <label>Título nuevo <input type="text" id="newTitle" required></label>
+       <button type="submit">Actualizar</button>
+     </form>
+     <pre id="putResult"></pre>
+   </section>
+ </main>
+
+ <script src="assets/js/main.js"></script>
+</body>
+</html>

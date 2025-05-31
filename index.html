@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Javier Gómez – Hoja de Vida</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio y hoja de vida de Javier Gómez, Ingeniero de Software.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+     <nav>
+        <h1 class="logo"><span>&lt;</span>Javier<span>/&gt;</span></h1>
+        <ul class="nav-links">
+           <li><a href="#about">Sobre mí</a></li>
+           <li><a href="#skills">Skills</a></li>
+           <li><a href="#experience">Experiencia</a></li>
+           <li><a href="projects.html">Proyectos</a></li>
+           <li><a href="contact.html">Contacto</a></li>
+        </ul>
+     </nav>
+     <div class="hero-content">
+        <img src="assets/img/profile.jpg" alt="Foto de Javier" class="profile-pic">
+        <h2>Ingeniero de Software en formación, apasionado por el Front‑End &amp; Pentesting.</h2>
+        <a class="btn primary" href="assets/docs/CV_Javier_Gomez.pdf" target="_blank">Descargar CV PDF</a>
+     </div>
+  </header>
+
+  <section id="about" class="container">
+     <h3>Sobre mí</h3>
+     <p>Soy estudiante de Ingeniería de Software en UCompensar y Customer Service Rep en Amazon. Me encanta crear experiencias web accesibles, seguras y con un toque creativo.</p>
+  </section>
+
+  <section id="skills" class="container">
+      <h3>Habilidades</h3>
+      <table class="skills-table">
+        <thead><tr><th>Lenguaje / Herramienta</th><th>Nivel</th></tr></thead>
+        <tbody>
+          <tr><td>HTML5 / CSS3</td><td>Avanzado</td></tr>
+          <tr><td>JavaScript ES6+</td><td>Intermedio</td></tr>
+          <tr><td>Python</td><td>Intermedio</td></tr>
+          <tr><td>SQL &amp; MySQL</td><td>Intermedio</td></tr>
+          <tr><td>Pentesting básico</td><td>En progreso</td></tr>
+        </tbody>
+      </table>
+  </section>
+
+  <section id="experience" class="container">
+     <h3>Experiencia</h3>
+     <article>
+        <h4>Amazon – Customer Service Representative (2023‑actual)</h4>
+        <p>Soporte técnico y atención al cliente global, aplicando metodologías ágiles para resolver incidencias.</p>
+     </article>
+     <article>
+        <h4>Proyectos académicos</h4>
+        <p>Desarrollo de bots con API de WhatsApp, automatización de reportes con Python, y sitios web responsivos.</p>
+     </article>
+  </section>
+
+  <section id="github" class="container">
+     <h3>Últimos repositorios</h3>
+     <form id="repoForm">
+       <label>Usuario de GitHub: <input type="text" id="ghUser" placeholder="javier-dev" required></label>
+       <button type="submit">Buscar (GET)</button>
+     </form>
+     <ul id="repoList"></ul>
+  </section>
+
+  <footer>
+     <p>&copy; 2025 Javier Gómez. Hecho con &lt;div&gt; y mucho &lt;span&gt;.</p>
+  </footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
